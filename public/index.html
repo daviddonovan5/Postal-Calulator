@@ -1,0 +1,19 @@
+<!doctype html>
+<head>
+	<title>Postal Calculator</title>
+</head>
+<body>
+  <h1>Calculate Postage</h1>
+  <form action="getRate">
+    <label for="weight">Weight (oz.)</label><br/>
+    <input type="text" name="weight"/><br/>
+    <label for="type">Type of Mail</label><br/>
+    <select name="type" id="type">
+    	<option value="stamped">Letter (Stamped)</option>
+    	<option value="metered">Letter (Metered)</option>
+    	<option value="flats">Large Envelopes (Flats)</option>
+    	<option value="firstclass">First-Class Package Service—Retail</option>
+    </select><br/>
+    <input type="submit" value="Calculate"/>
+  </form>
+</body>
